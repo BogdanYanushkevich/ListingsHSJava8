@@ -43,6 +43,7 @@ public class ByteArrayOutputStreamDemo {
             System.out.println("Initialization");
             f.reset();
 
+
             for (int j = 0; j < 3 ; j++) {
                 f.write('X');
             }
